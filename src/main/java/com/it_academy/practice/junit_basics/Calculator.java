@@ -43,6 +43,12 @@ public class Calculator {
             case '*': {
                 return a * b;
             }
+            case '^':{
+                return (float) Math.pow(a, b);
+            }
+            case '#':{
+                return (float) Math.sqrt(b);
+            }
         }
     }
 

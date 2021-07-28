@@ -16,5 +16,7 @@ public class Main {
         System.out.println("Minus result: " + calculator.calculate('-'));
         System.out.println("Division result: " + calculator.calculate('/'));
         System.out.println("Multiply result: " + calculator.calculate('*'));
+
+
     }
 }
